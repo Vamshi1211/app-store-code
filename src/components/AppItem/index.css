@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.apps-container {
+  max-width: 200px;
+  background: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+@media screen and (min-width: 768px) {
+  .apps-container {
+    max-width: 300px;
+  }
+}
+.image {
+  margin-top: 25px;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.app-heading {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-weight: 800;
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .app-heading {
+    font-size: 24px;
+  }
+}
